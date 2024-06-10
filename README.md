@@ -1,6 +1,12 @@
 # di504-project-face-emotion-recognition
 for di504 course at metu. this is a deep learning project for face emotion recognition with different cnns.
 
+----------
+Default parameters: optimiser: Adam, learning_rate=0.0001, loss = categorical_crossentropy, metrics = accuracy, epochs: 50/100
+
+Some callbacks: early stopping, reduce learning rate
+
+--------------
 Model # | Model
 ------ | ------
 1      | Custom CNN with Different Learning Rates of 1, 0.01, 0.0001
